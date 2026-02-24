@@ -1,0 +1,237 @@
+.services-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f9f0ff 0%, #fff0f5 100%);
+}
+
+.services-header {
+  text-align: center;
+  padding: 4rem 2rem 2rem;
+  background: linear-gradient(rgba(230, 211, 240, 0.9), rgba(255, 217, 230, 0.95)),
+              url('https://images.unsplash.com/photo-1469201039728-6c8997a9875a?w=1600') center/cover;
+  position: relative;
+}
+
+.back-link {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  color: #4a1d63;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.back-link:hover {
+  color: #d4af37;
+  background: white;
+}
+
+.services-title {
+  font-size: 3.5rem;
+  color: #4a1d63;
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+.services-title:after {
+  content: '💜';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  color: #6b2d8c;
+}
+
+.services-subtitle {
+  font-size: 1.3rem;
+  color: #6b2d8c;
+  max-width: 600px;
+  margin: 2rem auto 0;
+  font-style: italic;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 4rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(107, 45, 140, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(107, 45, 140, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(107, 45, 140, 0.2);
+  border-color: #6b2d8c;
+}
+
+.service-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.service-title {
+  font-size: 1.8rem;
+  color: #4a1d63;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.service-description {
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.service-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-tag {
+  background: #f0e6ff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  color: #4a1d63;
+  border: 1px solid #6b2d8c;
+}
+
+.service-price {
+  font-size: 1.4rem;
+  color: #6b2d8c;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.inquire-button {
+  background: transparent;
+  color: #4a1d63;
+  border: 2px solid #6b2d8c;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.inquire-button:hover {
+  background: #6b2d8c;
+  color: #ffd9e6;
+  transform: scale(1.02);
+  border-color: #6b2d8c;
+}
+
+.custom-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #e6d3f0;
+  margin-top: 2rem;
+}
+
+.custom-section h2 {
+  font-size: 2.5rem;
+  color: #4a1d63;
+  margin-bottom: 1rem;
+}
+
+.custom-section p {
+  font-size: 1.2rem;
+  color: #6b2d8c;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-button {
+  background: #6b2d8c;
+  color: white;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid #6b2d8c;
+}
+
+.custom-button:hover {
+  background: transparent;
+  color: #4a1d63;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.services-footer {
+  text-align: center;
+  padding: 2rem;
+  background: #4a1d63;
+  border-top: 2px solid #d4af37;
+  color: #ffd9e6;
+  margin-top: 2rem;
+}
+
+.footer-links {
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  color: #ffd9e6;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #d4af37;
+}
+
+.footer-separator {
+  color: #d4af37;
+  margin: 0 0.2rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .services-title {
+    font-size: 2.5rem;
+  }
+  
+  .back-link {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+}
