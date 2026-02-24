@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rose-court-quince/static/css/main.0fee57fe.css",
+    "main.js": "/rose-court-quince/static/js/main.b704b238.js",
+    "static/js/453.9dc97f0a.chunk.js": "/rose-court-quince/static/js/453.9dc97f0a.chunk.js",
+    "index.html": "/rose-court-quince/index.html",
+    "main.0fee57fe.css.map": "/rose-court-quince/static/css/main.0fee57fe.css.map",
+    "main.b704b238.js.map": "/rose-court-quince/static/js/main.b704b238.js.map",
+    "453.9dc97f0a.chunk.js.map": "/rose-court-quince/static/js/453.9dc97f0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fee57fe.css",
+    "static/js/main.b704b238.js"
+  ]
+}
